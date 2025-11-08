@@ -9,6 +9,7 @@ int main() {
     
     printf("Введите %d целых чисел (положительных и отрицательных):\n", SIZE);
     for (int i = 0; i < SIZE; i++) {
+        printf("arr[%d]: ", i);
         scanf("%d", &arr[i]);
     }
     
